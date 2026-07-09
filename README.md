@@ -1,7 +1,18 @@
-# R.K.-SkillForges-Practice
-
-
 <div align="center">
+
+# 🎓 R.K. SkillForges
+
+**An open-source online learning platform for creators and learners.**
+
+Upload courses · Stream videos · Build playlists · Subscribe to creators · Chat with AI
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.111.1-009688?logo=fastapi)](https://fastapi.tiangolo.com)
+[![React](https://img.shields.io/badge/React-18-61DAFB?logo=react)](https://react.dev)
+[![MongoDB](https://img.shields.io/badge/MongoDB-7.0-47A248?logo=mongodb)](https://mongodb.com)
+
+</div>
 
 ---
 
@@ -23,7 +34,6 @@
 R.K. SkillForges is a full-stack online learning platform where creators can upload videos and courses (free or paid), and learners can discover content based on their interests.
 
 **Core features:**
-
 - 📹 Video upload and streaming (async processing via Celery + AWS S3)
 - 📚 Free and paid course creation with playlist support
 - 👤 Creator and viewer roles with subscription system
@@ -38,17 +48,17 @@ R.K. SkillForges is a full-stack online learning platform where creators can upl
 
 ## 🛠 Tech Stack
 
-| Layer          | Technology                                  |
-| -------------- | ------------------------------------------- |
-| Frontend       | React.js 18, Vite, Redux Toolkit, Axios     |
-| Backend        | FastAPI, Python 3.11, Uvicorn               |
-| Database       | MongoDB 7 (Motor async driver + Beanie ODM) |
-| Cache          | Redis (AWS ElastiCache)                     |
-| Task Queue     | Celery + AWS SQS                            |
-| Storage        | AWS S3 (100TB), CloudFront CDN              |
-| Infrastructure | AWS EC2/ECS, Terraform                      |
-| CI/CD          | GitHub Actions                              |
-| Auth           | JWT + bcrypt, Google OAuth2                 |
+| Layer | Technology |
+|---|---|
+| Frontend | React.js 18, Vite, Redux Toolkit, Axios |
+| Backend | FastAPI, Python 3.11, Uvicorn |
+| Database | MongoDB 7 (Motor async driver + Beanie ODM) |
+| Cache | Redis (AWS ElastiCache) |
+| Task Queue | Celery + AWS SQS |
+| Storage | AWS S3 (100TB), CloudFront CDN |
+| Infrastructure | AWS EC2/ECS, Terraform |
+| CI/CD | GitHub Actions |
+| Auth | JWT + bcrypt, Google OAuth2 |
 
 ---
 
@@ -56,14 +66,14 @@ R.K. SkillForges is a full-stack online learning platform where creators can upl
 
 Make sure you have these installed before starting:
 
-| Tool              | Version | Download            |
-| ----------------- | ------- | ------------------- |
-| Python            | 3.11+   | https://python.org  |
-| Node.js           | 18+     | https://nodejs.org  |
-| MongoDB           | 7.0+    | https://mongodb.com |
-| Redis             | 7.0+    | https://redis.io    |
-| Git               | Any     | https://git-scm.com |
-| Docker (optional) | 24+     | https://docker.com  |
+| Tool | Version | Download |
+|---|---|---|
+| Python | 3.11+ | https://python.org |
+| Node.js | 18+ | https://nodejs.org |
+| MongoDB | 7.0+ | https://mongodb.com |
+| Redis | 7.0+ | https://redis.io |
+| Git | Any | https://git-scm.com |
+| Docker (optional) | 24+ | https://docker.com |
 
 ---
 
@@ -199,12 +209,12 @@ Frontend is running at **http://localhost:5173** ✅
 
 #### Step 5 — Verify everything is running
 
-| Service     | URL                        | Status check                      |
-| ----------- | -------------------------- | --------------------------------- |
-| Frontend    | http://localhost:5173      | Should show R.K. SkillForges home |
-| Backend API | http://localhost:8000/docs | Should show Swagger UI            |
-| MongoDB     | localhost:27017            | Check with MongoDB Compass        |
-| Redis       | localhost:6379             | Check with`redis-cli ping`      |
+| Service | URL | Status check |
+|---|---|---|
+| Frontend | http://localhost:5173 | Should show R.K. SkillForges home |
+| Backend API | http://localhost:8000/docs | Should show Swagger UI |
+| MongoDB | localhost:27017 | Check with MongoDB Compass |
+| Redis | localhost:6379 | Check with `redis-cli ping` |
 
 ---
 
@@ -290,14 +300,14 @@ git checkout -b feature/your-feature-name
 
 Follow the structure below depending on what you're changing:
 
-| What you're working on | Where to look                                                    |
-| ---------------------- | ---------------------------------------------------------------- |
-| New API endpoint       | `backend/app/api/v1/endpoints/` + `services/` + `schemas/` |
-| New MongoDB model      | `backend/app/models/` + `repositories/`                      |
-| New React page         | `frontend/src/pages/`                                          |
-| New reusable component | `frontend/src/components/`                                     |
-| Frontend API call      | `frontend/src/services/`                                       |
-| Redux state            | `frontend/src/features/`                                       |
+| What you're working on | Where to look |
+|---|---|
+| New API endpoint | `backend/app/api/v1/endpoints/` + `services/` + `schemas/` |
+| New MongoDB model | `backend/app/models/` + `repositories/` |
+| New React page | `frontend/src/pages/` |
+| New reusable component | `frontend/src/components/` |
+| Frontend API call | `frontend/src/services/` |
+| Redux state | `frontend/src/features/` |
 
 #### Step 4 — Write tests
 
@@ -358,7 +368,6 @@ git push origin feature/your-feature-name
 Then go to GitHub → your fork → click **"Compare & pull request"**.
 
 Fill in the PR template:
-
 - What does this PR do?
 - Which issue does it close? (write `Closes #123`)
 - Screenshots / test results (if UI change)
@@ -408,7 +417,6 @@ R.K. SkillForges/
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 You are free to:
-
 - ✅ Use this project for personal and commercial purposes
 - ✅ Modify and distribute it
 - ✅ Fork it and build your own product on top of it

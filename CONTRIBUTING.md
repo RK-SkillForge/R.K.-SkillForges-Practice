@@ -466,16 +466,16 @@ class VideoService:
   
     async def upload_video(self, data: VideoCreate, user_id: str):
         logger.info(f"Video upload started | user_id={user_id} | title={data.title}")
-    
+      
         try:
             video = await video_repo.create(data)
             logger.info(f"Video created in DB | video_id={video.id}")
-        
+          
             await sqs.enqueue_video_processing(str(video.id))
             logger.info(f"Video queued for processing | video_id={video.id}")
-        
+          
             return video
-        
+          
         except Exception as e:
             logger.error(f"Video upload failed | user_id={user_id} | error={str(e)}")
             raise

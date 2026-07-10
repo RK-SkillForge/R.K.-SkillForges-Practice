@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: R.K. SkillForges Discussions
+    url: https://github.com/RK-SkillForge/R.K.-SkillForges-Practice/discussions
+    about: Please ask and answer general questions here.
+  - name: Security Concerns
+    url: https://github.com/RK-SkillForge/R.K.-SkillForges-Practice/security/policy
+    about: Please report security vulnerabilities privately.

@@ -83,8 +83,8 @@ Make sure you have these installed before starting:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/R.K. SkillForges.git
-cd R.K. SkillForges
+git clone https://github.com/RK-SkillForge/R.K.-SkillForges-Practice.git
+cd R.K.-SkillForges-Practice
 
 # 2. Copy environment files
 cp backend/.env.example backend/.env
@@ -103,8 +103,8 @@ Open **http://localhost:5173** in your browser. Done! ✅
 #### Step 1 — Clone the repository
 
 ```bash
-git clone https://github.com/your-username/R.K. SkillForges.git
-cd R.K. SkillForges
+git clone https://github.com/RK-SkillForge/R.K.-SkillForges-Practice.git
+cd R.K.-SkillForges-Practice
 ```
 
 ---
@@ -207,6 +207,24 @@ Frontend is running at **http://localhost:5173** ✅
 
 ---
 
+#### Frontend Dependencies (from `package.json`)
+
+The frontend relies on these packages — `npm install` will install them automatically:
+
+| Package | Type | Purpose |
+|---------|------|---------|
+| `react` ^19.2.7 | dependency | UI library |
+| `react-dom` ^19.2.7 | dependency | React DOM renderer |
+| `vite` ^8.1.1 | devDependency | Build tool & dev server |
+| `@vitejs/plugin-react` ^6.0.3 | devDependency | Vite React plugin (HMR, JSX transform) |
+| `eslint` ^10.6.0 | devDependency | Code linting |
+| `eslint-plugin-react-hooks` ^7.1.1 | devDependency | Enforce React Hooks rules |
+| `eslint-plugin-react-refresh` ^0.5.3 | devDependency | HMR-safe lint rules |
+| `@eslint/js` ^10.0.1 | devDependency | ESLint JS config |
+| `globals` ^17.7.0 | devDependency | Global variable definitions for ESLint |
+
+> **Note:** The project's `src/` structure references additional libraries (Redux Toolkit, React Router DOM, Axios) that will be added as the codebase grows. After cloning, always run `npm install` inside `frontend/` before running the dev server.
+
 #### Step 5 — Verify everything is running
 
 | Service | URL | Status check |
@@ -224,16 +242,16 @@ Forking creates your own copy of R.K. SkillForges so you can make changes withou
 
 ### Step 1 — Fork on GitHub
 
-1. Go to **https://github.com/your-username/R.K. SkillForges**
-2. Click the **Fork** button (top-right of the page)
+1. Go to **https://github.com/RK-SkillForge/R.K.-SkillForges-Practice**
+2. Click the **Fork** button (top-right) of the page
 3. Select your GitHub account as the destination
-4. GitHub creates `https://github.com/YOUR-USERNAME/R.K. SkillForges`
+4. GitHub creates `https://github.com/YOUR-USERNAME/R.K.-SkillForges-Practice`
 
 ### Step 2 — Clone your fork locally
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/R.K. SkillForges.git
-cd R.K. SkillForges
+git clone https://github.com/YOUR-USERNAME/R.K.-SkillForges-Practice.git
+cd R.K.-SkillForges-Practice
 ```
 
 ### Step 3 — Add the original repo as "upstream"
@@ -241,14 +259,14 @@ cd R.K. SkillForges
 This lets you pull in future updates from the main project:
 
 ```bash
-git remote add upstream https://github.com/original-owner/R.K. SkillForges.git
+git remote add upstream https://github.com/RK-SkillForge/R.K.-SkillForges-Practice.git
 
 # Verify your remotes
 git remote -v
-# origin    https://github.com/YOUR-USERNAME/R.K. SkillForges.git (fetch)
-# origin    https://github.com/YOUR-USERNAME/R.K. SkillForges.git (push)
-# upstream  https://github.com/original-owner/R.K. SkillForges.git (fetch)
-# upstream  https://github.com/original-owner/R.K. SkillForges.git (push)
+# origin    https://github.com/YOUR-USERNAME/R.K.-SkillForges-Practice.git (fetch)
+# origin    https://github.com/YOUR-USERNAME/R.K.-SkillForges-Practice.git (push)
+# upstream  https://github.com/RK-SkillForge/R.K.-SkillForges-Practice.git (fetch)
+# upstream  https://github.com/RK-SkillForge/R.K.-SkillForges-Practice.git (push)
 ```
 
 ### Step 4 — Sync your fork with latest changes (anytime)
@@ -269,7 +287,7 @@ We welcome all contributions — bug fixes, new features, documentation, tests, 
 ### Before you start
 
 - Read through [folder_structure.md](folder_structure.md) to understand the codebase
-- Check [open issues](https://github.com/your-username/R.K. SkillForges/issues) — pick one tagged `good first issue`
+- Check [open issues](https://github.com/RK-SkillForge/R.K.-SkillForges-Practice/issues) — pick one tagged `good first issue`
 - Comment on the issue to let others know you're working on it
 
 ---

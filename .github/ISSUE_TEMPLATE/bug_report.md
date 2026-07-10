@@ -1,38 +1,45 @@
 ---
 name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
+about: Report a bug to help us improve R.K. SkillForges
+title: '[BUG] '
+labels: bug
 assignees: ''
-
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+## Describe the Bug
 
-**To Reproduce**
+A clear and concise description of the bug.
+
+## To Reproduce
+
 Steps to reproduce the behavior:
+
 1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
+2. Click on '...'
+3. Scroll down to '...'
 4. See error
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+## Expected Behavior
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+What did you expect to happen?
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+## Actual Behavior
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+What actually happened? Include error messages, status codes, or stack traces.
 
-**Additional context**
-Add any other context about the problem here.
+## Environment
+
+- **Layer affected:** [Frontend / Backend / Infrastructure]
+- **OS:** [e.g. Windows 11, macOS 14, Ubuntu 22.04]
+- **Browser (if frontend):** [e.g. Chrome 120, Firefox 121]
+- **Python version (if backend):** [e.g. 3.11.2]
+- **Node version (if frontend):** [e.g. 20.11]
+- **Branch:** [e.g. main]
+
+## Screenshots / Logs
+
+If applicable, add screenshots or paste relevant log output.
+
+## Additional Context
+
+Add any other context about the problem here — e.g. recent changes, load conditions.

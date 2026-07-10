@@ -1,0 +1,49 @@
+# ─── Python ────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.so
+
+# ─── Virtual Environment ───────────────────────────────────
+venv/
+.venv/
+env/
+
+# ─── Environment & Secrets ─────────────────────────────────
+.env
+.env.local
+
+# ─── IDE & Editor ──────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ─── OS Files ──────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ─── Logs ──────────────────────────────────────────────────
+logs/
+*.log
+
+# ─── Build / Dist ──────────────────────────────────────────
+*.egg-info/
+dist/
+build/
+
+# ─── Docker ────────────────────────────────────────────────
+.docker/
+
+# ─── Misc ──────────────────────────────────────────────────
+*.local
+.cache/
+tmp/
+.coverage
+htmlcov/

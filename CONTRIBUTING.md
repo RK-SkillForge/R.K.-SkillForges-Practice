@@ -29,9 +29,9 @@
 
 **Everyone is welcome.** You do not need to be an expert.
 
-- 🆕 **Beginners** — start with issues tagged [`good first issue`](https://github.com/your-username/R.K. SkillForge/labels/good%20first%20issue)
-- 🐛 **Bug hunters** — find and fix bugs tagged [`bug`](https://github.com/your-username/R.K. SkillForge/labels/bug)
-- ✨ **Feature builders** — work on issues tagged [`enhancement`](https://github.com/your-username/R.K. SkillForge/labels/enhancement)
+- 🆕 **Beginners** — start with issues tagged [`good first issue`](https://github.com/RK-SkillForge/R.K.-SkillForges-Practice/labels/good%20first%20issue)
+- 🐛 **Bug hunters** — find and fix bugs tagged [`bug`](https://github.com/RK-SkillForge/R.K.-SkillForges-Practice/labels/bug)
+- ✨ **Feature builders** — work on issues tagged [`enhancement`](https://github.com/RK-SkillForge/R.K.-SkillForges-Practice/labels/enhancement)
 - 📝 **Writers** — improve docs, guides, and comments
 - 🎨 **Designers** — improve UI/UX components
 - 🧪 **Testers** — write unit/integration tests
@@ -67,15 +67,15 @@
 
 ### Step 1 — Fork the repository
 
-1. Go to `https://github.com/your-username/R.K. SkillForge`
+1. Go to `https://github.com/RK-SkillForge/R.K.-SkillForges-Practice`
 2. Click **Fork** (top-right)
 3. Choose your GitHub account
 
 ### Step 2 — Clone your fork
 
 ```bash
-git clone https://github.com/YOUR-GITHUB-USERNAME/R.K. SkillForge.git
-cd R.K. SkillForge
+git clone https://github.com/YOUR-GITHUB-USERNAME/R.K.-SkillForges-Practice.git
+cd R.K.-SkillForges-Practice
 ```
 
 ### Step 3 — Add upstream remote
@@ -83,7 +83,7 @@ cd R.K. SkillForge
 This lets you pull in new changes from the original repo later:
 
 ```bash
-git remote add upstream https://github.com/original-owner/R.K. SkillForge.git
+git remote add upstream https://github.com/RK-SkillForge/R.K.-SkillForges-Practice.git
 
 # Confirm it worked
 git remote -v
@@ -92,8 +92,8 @@ git remote -v
 You should see:
 
 ```
-origin    https://github.com/YOUR-USERNAME/R.K. SkillForge.git
-upstream  https://github.com/original-owner/R.K. SkillForge.git
+origin    https://github.com/YOUR-USERNAME/R.K.-SkillForges-Practice.git
+upstream  https://github.com/RK-SkillForge/R.K.-SkillForges-Practice.git
 ```
 
 ### Step 4 — Install dependencies
@@ -342,7 +342,7 @@ Found something broken? Great — that's a valuable contribution too.
 
 ### Before reporting
 
-1. Check if the bug is already reported in [Issues](https://github.com/your-username/R.K. SkillForge/issues)
+1. Check if the bug is already reported in [Issues](https://github.com/RK-SkillForge/R.K.-SkillForges-Practice/issues)
 2. Check you're running the latest version
 3. Try to reproduce it consistently
 
